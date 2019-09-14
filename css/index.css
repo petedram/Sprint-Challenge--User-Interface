@@ -78,25 +78,34 @@ p {
     background:black;
 }
 
-
-
 .topnav {
     display:flex;
-    align-items:center;
+    align-items:flex-end;
     width:80%;
     margin-left:10%;
     justify-content: space-between;
     flex-wrap:wrap;
+    padding-right:20px;
 }
 
 .topnav a, .topnav img {
-    padding-bottom: 20px;
     padding-top: 20px;
     text-decoration:none;
     color:black;
     font-size: 90%;
 
 }
+
+#header-img {
+    display:flex;
+    width:80%;
+    margin-left:10%;
+    align-items:center;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+
 
 .top-content {
     display: flex;
