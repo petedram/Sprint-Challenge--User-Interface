@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    padding-top:10px;
 }
 
 p {
@@ -90,6 +91,19 @@ p {
 
 }
 
+button:hover {
+    animation:pulse 3s infinite;
+}
+
+@keyframes pulse {
+    0% {
+      background-color: white;
+    }
+    100% {
+      background-color: #FF4136;
+    }
+  }
+
 #header-img {
     display:flex;
     width:80%;
@@ -99,58 +113,58 @@ p {
     margin-bottom:20px;
 }
 
-
-
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.about-section{
+    display:flex;
+    flex-wrap:wrap;
+    width:80%;
+    margin-left:10%;
+    margin-top:20px;
+    margin-bottom:30px;
+    
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.middle-fourbox {
+    display:flex;
+    flex-wrap:wrap;
+    width:80%;
+    margin-left:10%;
+    margin-top:20px;
+    justify-content: space-between;
 }
 
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+.box{
+    width:380px;
+    border: 2px grey; 
+    padding-bottom:20px;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+button {
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color: ffffff;
+    border-radius: 8px;
+    border:2px black solid;
+    font-size:110%;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+
+hr {
+    border-top:1px dashed;
+    width:100%;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.bottom-section {
+    display:flex;
+    flex-wrap:wrap;
+    width:80%;
+    margin-left:10%;
+    margin-top:20px;
+    margin-bottom:30px;
 }
 
-#box1 { background-color:teal;}
-#box2 { background-color:gold;}
-#box3 { background-color:cadetblue;}
-#box4 { background-color:coral;}
-#box5 { background-color:crimson;}
-#box6 { background-color:forestgreen;}
-#box7 { background-color:darkorchid;}
-#box8 { background-color:hotpink;}
-#box9 { background-color:indigo;}
-#box10 { background-color:dodgerblue;}
+
 
 
 .bottom-content {
